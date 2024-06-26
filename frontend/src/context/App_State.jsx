@@ -5,7 +5,7 @@ import { useAsyncError } from 'react-router-dom';
 
 
 const App_State = (props) => {
-  const url = "http://localhost:5000/api";
+  const url = "https://recipe-api-plum.vercel.app/";
   const [token, setToken] = useState("")
   const [recipe, setrecipe] = useState([])
   const [savedRecipe, setsavedRecipe] = useState([])
