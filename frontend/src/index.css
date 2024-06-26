@@ -1,0 +1,38 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-bar{
+  padding: 5px;
+}
+
+.save-btn:hover{
+  border:'1px rgb(57, 225, 247) solid' !important;
+  background: transparent !important;
+  color: white !important;
+}
+.view-btn:hover{
+  border:'1px yellow solid' !important;
+  background: transparent !important;
+  color: white !important;
+ 
+}
+
+
+@media (max-width: 1240px) {
+  
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Styles for medium screens */
+}
+
+@media (min-width: 992px) {
+  /* Styles for large screens */
+}
