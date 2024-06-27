@@ -5,7 +5,7 @@ import { useAsyncError } from 'react-router-dom';
 
 
 const App_State = (props) => {
-  const url = "http://localhost:5000";
+  const url = "https://recipe-api-u75n.onrender.com/api";
   const [token, setToken] = useState("")
   const [recipe, setrecipe] = useState([])
   const [savedRecipe, setsavedRecipe] = useState([])
@@ -19,7 +19,7 @@ const App_State = (props) => {
     const fetchRecipe = async()=>{
 
       const api = await axios.get( 
-      `${url}/api/recipe`,
+      `${url}/recipe`,
         
       {
         headers:{
