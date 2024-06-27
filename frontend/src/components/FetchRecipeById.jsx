@@ -21,7 +21,7 @@ const FetchRecipeById = ({ id }) => {
 
     return (
         <div className='text-center m-3'>
-            <div className="text-center d-flex justify-content-center align-items-center flex-direction-column bg-dark p-2 rounded" style={{ flexDirection: "column" }}>
+            <div className="text-center d-flex justify-content-center align-items-center flex-direction-column " style={{ flexDirection: "column" }}>
                 <div className=" d-flex justify-content-center align-items-center p-3">
 
                     <img src={recipe.imgurl} className="card-img-top" alt="recipe image" style={{
