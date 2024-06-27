@@ -24,12 +24,13 @@ app.use('/api', recipeRouter)
 
 
 mongoose.connect(
-    "mongodb+srv://shankit119:KVUmTqQyN7GNjblM@recipeapp.lyhm8e9.mongodb.net/",{
+    "mongodb+srv://shankit119:shankit119@recipeapp.lyhm8e9.mongodb.net/?retryWrites=true&w=majority&appName=RecipeApp",{
         dbName: "RecipeApp"
     }
 ).then(()=> console.log("MongoDB is Connected...!")).catch((err)=> console.log(err.message));
 
 app.get("/", (req,res) =>{
+    console.log(process.env.PORT)
     res.json("hello");
 })
 

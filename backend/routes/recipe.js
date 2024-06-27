@@ -11,7 +11,7 @@ router.post('/add',Authenticate, add)
 router.get('/saved', getSavedRecipe)
 
 // get all recipe
-router.get('/', getAllRecipe)
+router.get('/recipe', getAllRecipe)
 
 // get recipe by id
 router.get('/:id', getRecipeById)
